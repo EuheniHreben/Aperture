@@ -1,0 +1,38 @@
+// components
+@import '_normalize';
+@import '_variables';
+@import '_adaptive';
+@import '_layout';
+
+// blocks
+// header
+@import 'block/_header';
+// @import 'block/_logo';
+@import 'block/_menu';
+// @import 'block/_address';
+// @import 'block/_dropdown';
+// @import 'block/_lang';
+
+//main
+// @import 'block/_index';
+@import 'block/_hero';
+@import 'block/_speciality';
+// @import 'block/_breadcrumbs';
+// @import 'block/_services';
+// @import 'block/_service.scss';
+// @import 'block/_page';
+// @import 'block/_about';
+// @import 'block/_reviews';
+// @import 'block/_review';
+// @import 'block/_tag';
+// @import 'block/_form';
+// @import 'block/_partners';
+// @import 'block/_banner';
+// @import 'block/_news';
+@import 'block/_btn';
+// @import 'block/_control';
+// @import 'block/_modal';
+
+//footer
+// @import 'block/_footer';
+// @import 'block/_social';

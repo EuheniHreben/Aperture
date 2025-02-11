@@ -1,0 +1,22 @@
+.btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  transition: all .1s linear;
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+.btn_type_first {
+  background: #fff;
+}

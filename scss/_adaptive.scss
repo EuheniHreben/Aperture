@@ -1,0 +1,9 @@
+@function rem($px) {
+  @return $px / $baseFontSize+0rem;
+}
+
+@mixin phones {
+  @media (max-width: $phones) {
+    @content;
+  }
+}

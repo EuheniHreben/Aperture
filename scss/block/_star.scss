@@ -1,0 +1,25 @@
+.star {
+  position: relative;
+}
+
+.star__content {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  max-width: 300px;
+}
+
+.star__img {
+  display: block;
+  width: 100%;
+}
+
+.star__title {
+  margin-bottom: 10px;
+}
+
+.star__frame {
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+}

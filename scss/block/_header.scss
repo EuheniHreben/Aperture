@@ -1,5 +1,11 @@
 .header {
-  padding: 20px 140px; 
+  padding: 16px calc(30px + 110 *(100vw/1280)); 
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 16px;
+  }
 }
 
 .header-container {

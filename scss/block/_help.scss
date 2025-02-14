@@ -1,0 +1,19 @@
+.help {
+  padding: 120px 0px;
+}
+
+.help-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.help__title {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.help__desc {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,25 @@
+.mountain {
+  position: relative;
+}
+
+.mountain__content {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  max-width: 300px;
+}
+
+.mountain__img {
+  display: block;
+  width: 100%;
+}
+
+.mountain__title {
+  margin-bottom: 10px;
+}
+
+.mountain__frame {
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+}

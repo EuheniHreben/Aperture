@@ -4,42 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aperture</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   
   <div class="wrapper">
-
+    
     <header class="header">
       <div class="container header-container">
         <a href="#" class="logo">
-          <img src="./img/IMAGE.png" alt="">
+          <img src="./img/IMAGE.png" alt="" class="logo__img">
         </a>
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link">
+              <a href="#speciality" class="menu__link">
                 Business areas
               </a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">
-                Featured images
-              </a>
-            </li>
-            <li class="menu__item">
-              <a href="#" class="menu__link">
+              <a href="#tools" class="menu__link">
                 Gear cage
               </a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">
+              <a href="#partners" class="menu__link">
+                Featured images
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#footer" class="menu__link">
                 Contact
               </a>
             </li>
             <li class="menu__item menu__item">
               <a href="#" class="menu__link btn btn_type_first">
-                Get template
+                Login
               </a>
             </li>
           </ul>
@@ -54,28 +58,183 @@
             <h1 class="hero__title">Aperture Studios</h1>
             <p class="hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
           </div>
-          <div class="hero__location">
-            <img src="./img/Frame.png" alt="">
-          </div>
+          <img src="./img/Frame.png" alt="" class="hero__location">
         </div>
       </section>
-      <section class="speciality">
+      <section class="speciality" id="speciality">
         <div class="container speciality-content">
           <h2 class="speciality__title">What we do.</h2>
           <p class="speciality__subtitle">The areas that we're specialized in.</p>
           <ul class="speciality__list">
-            <li class="speciality__item">
-              
+            <li class="speciality__item card">
+              <img src="./img/IMAGE (1).jpg" alt="" class="card__img">
+              <div class="card__content">
+                <h4 class="card__title">Product Photography</h4>
+                <p class="card__desc">Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                <a href="#" class="menu__link btn btn_type_first">
+                  Read more
+                </a>
+              </div>
+            </li>
+            <li class="speciality__item card">
+              <img src="./img/IMAGE (2).jpg" alt="" class="card__img">
+              <div class="card__content">
+                <h4 class="card__title">Architecture Photography</h4>
+                <p class="card__desc">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                <a href="#" class="menu__link btn btn_type_first">
+                  Read more
+                </a>
+              </div>
+            </li>
+            <li class="speciality__item card">
+              <img src="./img/IMAGE (3).jpg" alt="" class="card__img">
+              <div class="card__content">
+                <h4 class="card__title">Drone Photography</h4>
+                <p class="card__desc">Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                <a href="#" class="menu__link btn btn_type_first">
+                  Read more
+                </a>
+              </div>
+            </li>
+            <li class="speciality__item card">
+              <img src="./img/IMAGE (4).jpg" alt="" class="card__img">
+              <div class="card__content">
+                <h4 class="card__title">Wildlife Photography</h4>
+                <p class="card__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                <a href="#" class="menu__link btn btn_type_first">
+                  Read more
+                </a>
+              </div>
             </li>
           </ul>
         </div>
       </section>
+      <section class="mountain">
+        <img src="./img/mountain.jpg" alt="" class="mountain__img">
+        <div class="mountain__content">
+          <h4 class="mountain__title">Sunset at Mount Fuji</h4>
+          <p class="mountain__desc">Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
+        </div>
+        <img src="./img/Frame2.png" alt="" class="mountain__frame">
+      </section>
+      <section class="tools" id="tools">
+        <div class="tools__items">
+          <div class="tools__text">
+            <div class="tools__content">
+              <p class="tools__subtitle">The Gear cage</p>
+              <h3 class="tools__title">The tools that we use.</h3>
+              <p class="tools__desc">The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+              <a href="#" class="tools__link btn btn_type_first">
+                Check it out
+              </a>
+            </div>
+          </div>
+          <div class="tools__picture">
+            <img src="./img/tools.jpg" alt="" class="tools__img">
+            <img src="./img/Frame3.png" alt="" class="tools__frame">
+          </div>
+        </div>
+      </section>
+      <section class="leaf">
+        <img src="./img/lise.jpg" alt="" class="leaf__img">
+        <div class="leaf__content">
+          <h4 class="leaf__title">Monstera Leafs</h4>
+          <p class="leaf__desc">Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+        </div>
+        <img src="./img/Frame4.png" alt="" class="leaf__frame">
+      </section>
+      <section class="partners" id="partners">
+        <div class="container partners-container">
+          <h3 class="partners__title">Past clients</h3>
+          <p class="partners__desc">Trusted by your favourite companies</p>
+          <img src="./img/partners.png" alt="" class="partners__img">
+        </div>
+      </section>
+      <section class="star">
+        <img src="./img/star.jpg" alt="" class="star__img">
+        <div class="star__content">
+          <h4 class="star__title">Star fall in the Himalayas</h4>
+          <p class="star__desc">Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.</p>
+        </div>
+        <img src="./img/Frame5.png" alt="" class="star__frame">
+      </section>
+      <section class="help">
+        <div class="container help-container">
+          <h2 class="help__title">Need help with photography or videography?</h2>
+          <p class="help__desc">We're here for you!</p>
+          <a href="#" class="help__link btn btn_type_first">
+            Get in touch
+          </a>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-      hello
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <div class="footer__top">
+          <div class="footer__info">
+            <a href="#" class="logo">
+              <img src="./img/IMAGE.png" alt="" class="logo__img">
+            </a>
+            <p>Photographers & videographers capturing the world around us.</p>
+          </div>
+          <div class="footer__pages">
+            <ul>
+              <li>Business areas</li>
+              <li>Product Photography</li>
+              <li>Architecture Photography</li>
+              <li>Drone Photography</li>
+              <li>Wildlife Photography</li>
+            </ul>
+            <ul>
+              <li>Pages</li>
+              <li>Gear cage</li>
+              <li>Featured images</li>
+              <li>Contact</li>
+              <li>Style guide</li>
+              <li>Instructions</li>
+              <li>Changelog</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="footer__subscribe">
+          <div class="footer__subscribe-info">
+            <h4 class="footer__subscribe-title">Subscribe to our newsletter</h4>
+            <p>Read about all the things we do.</p>
+          </div>
+          <form class="footer__form form">
+            <input name="emailInput" type="email" placeholder="Email address" maxlength="40" required>
+            <a href="" class="form__btn btn btn_type_second">ok</a>
+          </form>
+        </div>
+        <hr>
+        <div class="footer__bottom">
+          <p>© Aperture Photography, Inc. All rights reserved.</p>
+          <div class="social">
+            <a href="https://www.instagram.com/" class="social__link">
+              <i class="fa-brands fa-instagram fa-lg social__img"></i>
+            </a>
+            <a href="https://twitter.com/" class="social__link">
+              <i class="fa-brands fa-twitter fa-lg social__img"></i>
+            </a>
+            <a href="https://www.facebook.com/" class="social__link">
+              <i class="fa-brands fa-facebook fa-lg social__img"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
 
   </div>
 
+  <div class="btn-up btn-up_hide">
+    <i class="fa-solid fa-circle-arrow-up fa-2xl"></i>
+  </div>
+
+  <script src="js/btn-up.js"></script>
+  <script src="js/base.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/index.js"></script>
+  
 </body>
 </html>

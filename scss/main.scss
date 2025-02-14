@@ -7,32 +7,24 @@
 // blocks
 // header
 @import 'block/_header';
-// @import 'block/_logo';
+@import 'block/_logo';
 @import 'block/_menu';
-// @import 'block/_address';
-// @import 'block/_dropdown';
-// @import 'block/_lang';
 
 //main
-// @import 'block/_index';
 @import 'block/_hero';
 @import 'block/_speciality';
-// @import 'block/_breadcrumbs';
-// @import 'block/_services';
-// @import 'block/_service.scss';
-// @import 'block/_page';
-// @import 'block/_about';
-// @import 'block/_reviews';
-// @import 'block/_review';
-// @import 'block/_tag';
-// @import 'block/_form';
-// @import 'block/_partners';
-// @import 'block/_banner';
-// @import 'block/_news';
+@import 'block/_card';
+@import 'block/_mountain';
+@import 'block/_tools';
+@import 'block/_leaf';
+@import 'block/_partners';
+@import 'block/_star';
 @import 'block/_btn';
-// @import 'block/_control';
-// @import 'block/_modal';
+@import 'block/_help';
+@import 'block/_modal';
 
 //footer
-// @import 'block/_footer';
-// @import 'block/_social';
+@import 'block/_footer';
+@import 'block/_form';
+@import 'block/_btn-up';
+@import 'block/_social';

@@ -88,16 +88,18 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: calc(20px + 20 * (100vw / 1280));;
   display: block;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: calc(12px + 14 * (100vw / 1280));;
+  display: block;
   font-weight: bold;
 }
 
-hr {
-  margin: 12px 0;
+h4 {
+  font-size: calc(10px + 8 * (100vw / 1280));;
+  font-weight: bold;
 }

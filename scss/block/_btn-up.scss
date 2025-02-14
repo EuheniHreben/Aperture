@@ -1,0 +1,35 @@
+.btn-up {
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  z-index: 100;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+  opacity: 1;
+  filter: blur(0px);
+  transition: all .1s linear;
+  &:active {
+    transform: translateY(4px);
+  }
+}
+
+.fa-2xl {
+  font-size: 3em;
+}
+
+.btn-up_hide {
+  opacity: 0;
+  cursor: default;
+  filter: blur(4px);
+}
+
+@media (any-hover: hover) {
+  .btn-up:hover {
+    box-shadow: 0 0 20px 0 #fff;
+  }
+}

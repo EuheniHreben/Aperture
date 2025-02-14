@@ -1,5 +1,5 @@
 .speciality {
-  padding-top: 120px;
+  padding: 120px 0px;
 }
 
 .speciality-content {
@@ -15,4 +15,23 @@
 
 .speciality__subtitle {
   margin-bottom: 40px;
+}
+
+.speciality__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 136px;
+}
+
+
+@media (max-width: 768px) {
+  .speciality__list {
+    padding: 0 36px;
+  }
+}
+
+.speciality__item {
+  flex: 1 0 45%;
+  overflow: hidden;
 }

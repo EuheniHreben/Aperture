@@ -1,0 +1,25 @@
+.leaf {
+  position: relative;
+}
+
+.leaf__content {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  max-width: 300px;
+}
+
+.leaf__img {
+  display: block;
+  width: 100%;
+}
+
+.leaf__title {
+  margin-bottom: 10px;
+}
+
+.leaf__frame {
+  position: absolute;
+  right: 3%;
+  bottom: 4%;
+}

@@ -88,12 +88,20 @@
 
 .wakeup {
   // font-family: 'DXS Yagi';
-  padding-top: 80px;
+  padding-bottom: 80px;
   color: #fff;
   font-size: calc(60px + 100 * (100vw/1208));;
   font-weight: 800;
   animation: 10s blinkInfinite infinite ease-in-out;
 }
+
+
+@media (max-width: 768px) {
+  .wakeup {
+    padding-bottom: 160px;
+  }
+}
+
 @keyframes blinkInfinite {
   0% {
     opacity: 0;

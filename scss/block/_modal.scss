@@ -81,3 +81,36 @@
   padding: 5px 10px;
   border-top: 1px solid #333;
 }
+
+
+
+
+
+.wakeup {
+  // font-family: 'DXS Yagi';
+  padding-top: 80px;
+  color: #fff;
+  font-size: calc(60px + 100 * (100vw/1208));;
+  font-weight: 800;
+  animation: 10s blinkInfinite infinite ease-in-out;
+}
+@keyframes blinkInfinite {
+  0% {
+    opacity: 0;
+    filter: blur(6px);
+  }
+  
+  50% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  
+  100% {
+    opacity: 0;
+    filter: blur(6px);
+  }
+}
+
+
+
+

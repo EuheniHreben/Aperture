@@ -1,5 +1,11 @@
 .header {
-  padding: 16px calc(30px + 110 *(100vw/1280)); 
+  padding: 16px calc(20px + 110 *(100vw/1280)); 
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // z-index: 1000;
+  // background: #000;
 }
 
 @media (max-width: 768px) {

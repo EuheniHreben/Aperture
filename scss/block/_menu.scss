@@ -5,7 +5,14 @@
   flex-shrink: 3;
 }
 
+@media (max-width: 768px) {
+  .menu__list {
+    display: none;
+  }
+}
+
 .menu__item {
+  transition: color .2s ease-in;
   &:hover {
     color: #888;
   }

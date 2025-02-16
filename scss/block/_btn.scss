@@ -1,8 +1,8 @@
 .btn {
   display: inline-flex;
-  padding: calc(4px + 6 * (100vw / 1280)) calc(8px + 12 * (100vw / 1280));
+  padding: calc(8px + 6 * (100vw / 1280)) calc(8px + 12 * (100vw / 1280));
   color: #000;
-  font-weight: bold;
+  font-weight: 700;
   border-radius: 15px;
   text-transform: uppercase;
   text-align: center;
@@ -11,23 +11,23 @@
   cursor: pointer;
   outline: none;
   overflow: hidden;
-  transition: all .1s linear;
+  transition: all .2s ease-in;
+  &:active {
+    transform: translateY(4px);
+  }
 }
 
 .btn_type_first {
   background: #fff;
-  &:active {
-    transform: translateY(4px);
-  }
+}
+
+.btn_type_second {
+  background: #000;
+  color: #fff;
 }
 
 @media (any-hover: hover) {
   .btn_type_second:hover {
     box-shadow: 0 0 20px 0 #000;
   }
-}
-
-.btn_type_second {
-  background: #000;
-  color: #fff;
 }

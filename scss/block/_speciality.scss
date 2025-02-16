@@ -1,5 +1,5 @@
 .speciality {
-  padding: 120px 0px;
+  padding: calc(20px + 100 * (100vw/1208)) 0px;
 }
 
 .speciality-content {
@@ -13,21 +13,33 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 768px) {
+  .speciality__title {
+    margin-bottom: 0 6px;
+  }
+}
+
 .speciality__subtitle {
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .speciality__subtitle {
+    margin-bottom: 10px;
+  }
 }
 
 .speciality__list {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  padding: 0 136px;
+  padding: 0 calc(36px + 100 * (100vw/1208));
 }
 
 
 @media (max-width: 768px) {
   .speciality__list {
-    padding: 0 36px;
+    padding: 0 calc(6px + 30 * (100vw/1208));
   }
 }
 

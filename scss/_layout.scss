@@ -1,5 +1,4 @@
 body {
-  font-size: $baseFontSize;
   font-size: calc(8px + 6 * (100vw / 1280)); 
 }
 
@@ -12,6 +11,7 @@ body {
   background: #000;
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 * {
